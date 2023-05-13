@@ -119,6 +119,9 @@
     "yup": "^0.32.11",
     "zustand": "^3.7.2"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "react-app-rewired start --openssl-legacy-provider",
     "build": "react-app-rewired build",
