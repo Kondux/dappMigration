@@ -1,0 +1,296 @@
+/* * {
+  border-color: transparent !important;
+} */
+
+/* .progress-container {
+  width: 100%;
+  height: 30px;
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 15px !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(90deg, #3f87a6, #ebf8e1, #f69d3c);
+  background-size: 200% 200%;
+  animation: progress-animation 2s ease infinite;
+}
+
+@keyframes progress-animation {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.percentage-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1rem;
+} */
+
+.rect-progress-bar-percent {
+  font-size: calc(12px) !important;
+  margin: 0.25em !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #21bf96 !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: #21bf96 !important;
+}
+
+.ant-modal-content {
+  overflow: auto;
+  border-radius: 1rem;
+}
+
+.Icons {
+  color: "#712E6D" !important;
+}
+
+.IconsDark {
+  color: "#F37701";
+}
+
+.textIcon {
+  display: block;
+}
+
+.navSpace {
+  height: 86px !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.marquee-container {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  display: flex !important;
+  flex-direction: row !important;
+  z-index: 2 !important;
+  /* position: relative; */
+  width: 100vw !important;
+}
+
+.LevaContainer {
+  position: "absolute" !important;
+  z-index: 9999 !important;
+  top: 20 !important;
+  left: 20 !important
+}
+
+
+.connectors:hover {
+  background-color: #F3F4F6 !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo-Nvidia {
+    min-width: 160px !important;
+    min-height: 70px !important;
+  }
+  .navSpace {
+    height: 86px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  
+  }
+
+@media screen and (max-width: 1780px) {
+.textIcon {
+  display: none !important;
+}
+
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50% 
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+.mint-button:hover {
+  /* width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px; */
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+
+
+  background: -webkit-linear-gradient(
+    to right,
+    #ec5046,
+    #e702bf,
+    #2de4c1
+    ) !important; /* Chrome 10-25, Safari 5.1-6 */
+    
+  background: -moz-linear-gradient(    to right,
+  #ec5046,
+  #e702bf,
+  #2de4c1);
+
+  background: -o-linear-gradient(    to right,
+  #ec5046,
+  #e702bf,
+  #2de4c1);
+
+    background: linear-gradient(
+    to right,
+    #ec5046,
+    #e702bf,
+    #2de4c1
+    ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.glow-on-hover {
+
+  border: none;
+  outline: none;
+  color: #fff;
+
+  cursor: pointer;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  /* content: ''; */
+  background: #f47900;
+  /* position: absolute; */
+  background-size: 800%;
+  z-index: -1;
+  /* filter: blur(5px); */
+  /* width: calc(100% + 4px);
+  height: calc(100% + 4px); */
+  animation: glowing 20s linear infinite;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+/* .glow-on-hover:active {
+  color: #000
+} */
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 0;
+}
+
+.glow-on-hover:hover {
+  /* content: ''; */
+  background: linear-gradient(to right,
+  #ec5046,
+  #e702bf,
+  #2de4c1);
+  background-size: 800%;
+  z-index: 0;
+  /* filter: blur(5px); */
+  /* width: calc(100%);
+  height: calc(100% ); */
+  animation: glowing 8s ease-in-out infinite;
+  opacity: 1;
+  transition: opacity .2s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
+  100% { background-position: 0 0; }
+}
+
+
+.alice-carousel__wrapper{
+  text-align: center;
+  color: "#5f9ea0" !important;
+  font-size: 20px;
+}
+
+/* .css-1mupl1s {
+  padding-top: 0px !important;
+} */
+
+/* .css-gmuwbf {
+  height: 1px !important;
+} */
+
+.alice-carousel__play-btn-wrapper {
+opacity: 0;
+}
+
+.alice-carousel__play-btn-item {
+  opacity: 0;
+}
+
+.css-1xxj1bw {
+  padding-top: 0px !important;
+}
